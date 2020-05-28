@@ -1,0 +1,12 @@
+{
+  "name": "monokel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "lint": "tsdx lint"
+  },
+  "dependencies": {
+    "tsdx": "^0.13.2"
+  }
+}
