@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "lint": "tsdx lint"
+    "lint": "tsdx lint",
+    "test": "tsdx test"
   },
   "dependencies": {
     "tsdx": "^0.13.2"

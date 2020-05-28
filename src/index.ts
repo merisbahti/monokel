@@ -1,2 +1,2 @@
-const a: number = 5;
+const a: number = 5
 export default a
