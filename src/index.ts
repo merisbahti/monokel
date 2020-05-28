@@ -13,7 +13,7 @@ export const usePartialSetState = <S, A>(
     | O.Traversal<S, any, A>
     | O.Equivalence<S, any, A>,
 ): SetState<A> =>
-  useCallback(usePartialSetState(setState, optic), [setState, optic])
+  useCallback(createPartialSetState(setState, optic), [setState, optic])
 
 export const createPartialSetState = <S, A>(
   setState: SetState<S>,
